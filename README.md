@@ -38,8 +38,3 @@ Hello, I'm Haziq 👋<br>A second-year computer science student in Kuala Lumpur<
 
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white) ![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
 <br><br>
-
-## Github Stats  
-![](https://github-readme-stats.vercel.app/api?username=ziqnas-95&theme=dark&hide_border=false&include_all_commits=false&count_private=false)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=ziqnas-95&theme=dark&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=ziqnas-95&theme=dark&hide_border=false&include_all_commits=false&count_private=false&layout=compact)
