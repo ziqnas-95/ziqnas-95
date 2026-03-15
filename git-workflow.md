@@ -1,6 +1,7 @@
 # Git Workflow
 
 ## Starting a Project from Scratch
+\# Use this for your new ideas
 
 **1. Create project folder locally and give it a name.**  
 **2. Open project folder inside IDE (then work inb terminal)**
@@ -57,6 +58,8 @@ git push origin feature/issue-name
 <br>
 
 ## Syncing an Existing Local Repo
+\# Use this to make sure you have the latest code from other contributors (or your own past work) before starting something new.
+
 **1. Switch to main branch and pull latest changes**
 ```
 git checkout main
@@ -79,7 +82,13 @@ git push origin feature/new-task-name
 ## Pull Request & Merge
 **1. Push the branch:** `git push origin feat/name`  
 **2. Open a Pull Request in Github Repo**  
-**3. After reviewing code and no conflicts, merge pull request on Github**
+**3. After reviewing code and no conflicts, merge pull request on Github**  
+**4. Cleanup**
+```
+git checkout main
+git pull origin main
+git branch -d feature/name
+```
 <br>
 
 ## Naming Conventions
