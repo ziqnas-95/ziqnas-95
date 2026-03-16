@@ -92,3 +92,34 @@ git branch -d feature/name
 <br>
 
 ## Naming Conventions
+\# Use consistent naming to make history and collaboration easy.
+
+| Category | Branch Prefix | Commit/PR Prefix | Use Case / Description |
+| :--- | :--- | :--- | :--- |
+| **New Features** | `feat/` | `feat:` | Use for adding new functionality or modules to the project. |
+| **Bug Fixes** | `fix/` | `fix:` | Use when repairing broken code or addressing an issue/ticket. |
+| **Refactoring** | `refactor/` | `refactor:` | For code changes that neither fix a bug nor add a feature (improving structure). |
+| **Documentation** | `docs/` | `docs:` | Updates to README files, inline comments, or external documentation. |
+| **Styling** | `style/` | `style:` | Changes that do not affect the meaning of the code (white-space, formatting, CSS). |
+| **Testing** | `test/` | `test:` | Adding missing tests or correcting existing ones. |
+| **Performance** | `perf/` | `perf:` | Code changes that improve processing speed or reduce memory usage. |
+| **Chores/Config** | `chore/` | `chore:` | Updating build tasks, package manager configs, or CI/CD pipelines. |
+
+### Branch Naming Structure
+```
+prefix/short-description or prefix/issue-number-description
+```
+
+### Commit Message Anatomy
+```
+<type>: <description>
+
+Example: feat: add camera sharing to live model
+```
+
+### PR Titles
+```
+[Feat] Implement NFC tag data encryption
+
+[Fix] Resolve memory leak on dashboard refresh
+```
